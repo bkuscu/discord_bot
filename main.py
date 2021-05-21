@@ -39,7 +39,7 @@ class MyClient(discord.Client):
                     print("Groupsize for each group: " + str(groupSize))
                     f.write("------------------------------------------------------------------------------------")
                     f.write('\n')
-                    f.write(str(current_time) + "Groupsize for each group: " + str(groupSize))
+                    f.write(str(current_time) + "Group size for each group: " + str(groupSize))
                     f.write('\n')
 
 
