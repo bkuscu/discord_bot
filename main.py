@@ -58,7 +58,7 @@ class MyClient(discord.Client):
                 for x in pair:
                     groupListFinal.remove(x)
 
-                await message.channel.send("Group " + str(count) + ": " + str(pair), delete_after=30)
+                await message.channel.send("Group " + str(count) + ": " + str(pair))
                 pair.clear()
                 count = count+1
             groupList.clear()
